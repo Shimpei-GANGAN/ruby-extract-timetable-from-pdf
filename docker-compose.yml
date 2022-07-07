@@ -2,6 +2,7 @@ version: "3.9"
 services:
   ruby:
     build: .
+    container_name: ruby-timetable
     tty: true
     volumes:
       - .:/app
