@@ -1,1 +1,3 @@
-source 'hhtps://rubygems.org'
+source 'https://rubygems.org'
+
+gem 'rubocop', require: false
